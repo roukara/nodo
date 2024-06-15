@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "removeComments": true,
+    "strict": true
+  },
+  "include": ["src"]
+}

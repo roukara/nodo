@@ -1,0 +1,41 @@
+{
+  "name": "@roukara/nodo",
+  "version": "0.0.1",
+  "description": "A class designed to facilitate the manipulation of DOM elements within web pages.",
+  "author": {
+    "name": "Tsukasa Aoki",
+    "url": "https://www.roukara.net"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/nodo.umd.js",
+  "module": "./dist/nodo.mjs",
+  "types": "./dist/Nodo.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/nodo.mjs",
+      "require": "./dist/nodo.umd.js",
+      "types": "./dist/Nodo.d.ts"
+    }
+  },
+  "keywords": [
+    "dom",
+    "component",
+    "nodo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roukara/nodo.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
