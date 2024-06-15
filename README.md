@@ -34,17 +34,7 @@ class ButtonComponent extends Nodo<HTMLButtonElement> {
   }
 
   handleClick() {
-    if (this.props.onClick) {
-      this.props.onClick();
-    }
-  }
-
-  activate() {
-    this.addClass('active');
-  }
-
-  deactivate() {
-    this.removeClass('active');
+    this.props.onClick();
   }
 }
 
